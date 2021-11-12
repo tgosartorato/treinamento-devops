@@ -6,7 +6,8 @@ variable "arquivos" {
 
 Terceiro item com vários linhas de dados
 Bla blla
-
+XxxxXXXXXXXXXX
+YYYYYYYYyyyyYY
 EOF
   }
 }

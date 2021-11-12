@@ -9,3 +9,11 @@ resource "aws_instance" "web" {
     Name = "Maquina de Teste EC2"
   }
 }
+
+faça um script terraform que crie uma máquina na aws e solicite os dados abaixo validando
+security group (validar o sg-)
+subnet (validar o subnet-)
+ami (validar o ami-)
+instance_type (validar o t2.)
+
+

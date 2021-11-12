@@ -12,10 +12,9 @@ data "aws_ami" "ubuntu" {
   }
 }
 
-resource "aws_instance" "web" {
-  ami           = "${data.aws_ami.ubuntu.id}"
-  instance_type = "t2.micro"
-  tags = {
-    Name = "Maquina de Teste EC2"
+subnet_id = "subnet-000393bd6841a412b"
+ami = "ami-0e66f5495b4efdd0f"
+instance_type = "t2.micro"
+vpc_security_group_ids = ["sg-0e5635a3e668c53ac"]
   }
 }
